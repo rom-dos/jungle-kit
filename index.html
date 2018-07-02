@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Drum Kit</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <header>
+  
+  </header>
+
+  <div class="keys">
+    <div class="key" data-key="81">
+      <kbd>Q</kbd>
+      <span class="sound">Pad 1 (-3)</span>
+    </div>
+    <div class="key" data-key="87">
+      <kbd>W</kbd>
+      <span class="sound">Pad 1</span>
+    </div>
+    <div class="key" data-key="69">
+      <kbd>E</kbd>
+      <span class="sound">Pad 2 (-3)</span>
+    </div>
+    <div class="key" data-key="82">
+      <kbd>R</kbd>
+      <span class="sound">Pad 2</span>
+    </div>
+    <div class="key" data-key="84">
+      <kbd>T</kbd>
+      <span class="sound">Pad 3 (-3)</span>
+    </div>
+    <div class="key" data-key="89">
+      <kbd>Y</kbd>
+      <span class="sound">Pad 3</span>
+    </div>
+    <div class="key" data-key="85">
+      <kbd>U</kbd>
+      <span class="sound">Pad 4 (-3)</span>
+    </div>
+    <div class="key" data-key="73">
+      <kbd>I</kbd>
+      <span class="sound">Pad 4</span>
+    </div>
+    <div class="key" data-key="79">
+      <kbd>O</kbd>
+      <span class="sound">Pad 5 (-3)</span>
+    </div>
+    <div class="key" data-key="80">
+      <kbd>P</kbd>
+      <span class="sound">Pad 5</span>
+    </div>
+  </div>
+
+  <div class="keys">
+    <div class="key" data-key="65">
+      <kbd>A</kbd>
+      <span class="sound">clap</span>
+    </div>
+    <div class="key" data-key="83">
+      <kbd>S</kbd>
+      <span class="sound">hihat</span>
+    </div>
+    <div class="key" data-key="68">
+      <kbd>D</kbd>
+      <span class="sound">kick</span>
+    </div>
+    <div class="key" data-key="70">
+      <kbd>F</kbd>
+      <span class="sound">openhat</span>
+    </div>
+    <div class="key" data-key="71">
+      <kbd>G</kbd>
+      <span class="sound">boom</span>
+    </div>
+    <div class="key" data-key="72">
+      <kbd>H</kbd>
+      <span class="sound">ride</span>
+    </div>
+    <div class="key" data-key="74">
+      <kbd>J</kbd>
+      <span class="sound">snare</span>
+    </div>
+    <div class="key" data-key="75">
+      <kbd>K</kbd>
+      <span class="sound">tom</span>
+    </div>
+    <div class="key" data-key="76">
+      <kbd>L</kbd>
+      <span class="sound">tink</span>
+    </div>
+  </div>
+
+  <div class="keys">
+    <div class="key" data-key="90">
+      <kbd>Z</kbd>
+      <span class="sound">Break A</span>
+    </div>
+    <div class="key" data-key="88">
+      <kbd>X</kbd>
+      <span class="sound">Break B</span>
+    </div>
+    <div class="key" data-key="67">
+      <kbd>C</kbd>
+      <span class="sound">Break C</span>
+    </div>
+    <div class="key" data-key="86">
+      <kbd>V</kbd>
+      <span class="sound">Break D</span>
+    </div>
+    <div class="key" data-key="66">
+      <kbd>B</kbd>
+      <span class="sound">Break E</span>
+    </div>
+    <div class="key" data-key="78">
+      <kbd>N</kbd>
+      <span class="sound">Break F</span>
+    </div>
+    <div class="key" data-key="77">
+      <kbd>M</kbd>
+      <span class="sound">Break G</span>
+    </div>
+  </div>
+
+  <audio src="sounds/pads/Breeze Chord -3.wav" data-key="81"></audio>
+  <audio src="sounds/pads/Breeze Chord.wav" data-key="87"></audio>
+  <audio src="sounds/pads/God Chord -3.wav" data-key="69"></audio>
+  <audio src="sounds/pads/God Chord.wav" data-key="82"></audio>
+  <audio src="sounds/pads/Gravitational Chord -3.wav" data-key="84"></audio>
+  <audio src="sounds/pads/Gravitational Chord.wav" data-key="89"></audio>
+  <audio src="sounds/pads/Mystical Chord -3.wav" data-key="85"></audio>
+  <audio src="sounds/pads/Mystical Chord.wav" data-key="73"></audio>
+  <audio src="sounds/pads/Chase Chord -3.wav" data-key="79"></audio>
+  <audio src="sounds/pads/Chase Chord.wav" data-key="80"></audio>
+
+  <audio src="sounds/clap.wav" data-key="65"></audio>
+  <audio src="sounds/hihat.wav" data-key="83"></audio>
+  <audio src="sounds/kick.wav" data-key="68"></audio>
+  <audio src="sounds/openhat.wav" data-key="70"></audio>
+  <audio src="sounds/boom.wav" data-key="71"></audio>
+  <audio src="sounds/ride.wav" data-key="72"></audio>
+  <audio src="sounds/snare.wav" data-key="74"></audio>
+  <audio src="sounds/tom.wav" data-key="75"></audio>
+  <audio src="sounds/tink.wav" data-key="76"></audio>
+
+  <audio src="sounds/breaks/Break A.wav" data-key="90"></audio>
+  <audio src="sounds/breaks/Break B.wav" data-key="88"></audio>
+  <audio src="sounds/breaks/Break C.wav" data-key="67"></audio>
+  <audio src="sounds/breaks/Break D.wav" data-key="86"></audio>
+  <audio src="sounds/breaks/Break E.wav" data-key="66"></audio>
+  <audio src="sounds/breaks/Break F.wav" data-key="78"></audio>
+  <audio src="sounds/breaks/Break G.wav" data-key="77"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>

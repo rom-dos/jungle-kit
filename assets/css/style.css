@@ -1,0 +1,96 @@
+/*
+  ==================
+  Color Palette
+  ==================
+*/
+
+:root {
+  --orange: #ddc5a2;
+  --orange0: #fcf9f5;
+  --orange1: #f4ede1;
+  --orange2: #ecdfcc;
+  --orange3: #e4d0b4;
+  --orange4: #d8c19e;
+  --orange5: #c5b091;
+  --orange6: #b09d81;
+  --orange7: #97876f;
+  --orange8: #776a57;
+  --orange9: #463e33;
+}
+.orange { color: var(--orange) }
+.orange0 { color: var(--orange0) }
+.orange1 { color: var(--orange1) }
+.orange2 { color: var(--orange2) }
+.orange3 { color: var(--orange3) }
+.orange4 { color: var(--orange4) }
+.orange5 { color: var(--orange5) }
+.orange6 { color: var(--orange6) }
+.orange7 { color: var(--orange7) }
+.orange8 { color: var(--orange8) }
+.orange9 { color: var(--orange9) }
+.bg-orange { background-color: var(--orange) }
+.bg-orange0 { background-color: var(--orange0) }
+.bg-orange1 { background-color: var(--orange1) }
+.bg-orange2 { background-color: var(--orange2) }
+.bg-orange3 { background-color: var(--orange3) }
+.bg-orange4 { background-color: var(--orange4) }
+.bg-orange5 { background-color: var(--orange5) }
+.bg-orange6 { background-color: var(--orange6) }
+.bg-orange7 { background-color: var(--orange7) }
+.bg-orange8 { background-color: var(--orange8) }
+.bg-orange9 { background-color: var(--orange9) }
+
+html {
+  font-size: .6rem;
+  background: var(--orange2);
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+header {
+  min-height: 20vh; 
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: .2rem solid var(--orange4);
+  border-radius: .5rem;
+  margin: 0.4rem;
+  font-size: 0.4rem;
+  padding: 1.8rem 1.2rem;
+  transition: all .07s ease;
+  width: 5rem;
+  height: 4rem;
+  text-align: center;
+  color: var(--orange0);
+  background: rgba(0, 0, 0, 0.4);
+  text-shadow: 0 0 .5rem var(--orange6);
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: var(--orange4);
+  box-shadow: 0 0 1rem var(--orange2);
+}
+
+kbd {
+  display: block;
+  font-size: 1.6rem;
+  padding-bottom: 0.6rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  letter-spacing: .2rem;
+  color: var(--orange2);
+}
